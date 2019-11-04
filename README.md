@@ -10,3 +10,10 @@ SPLINE
 Array SplineMeshes - This is a variable that contains statiс meshes of roads. When you add a second element , assign it and then go to (Distribution Method) and select type (Any): Random. Result : you will see that the Spline you have assigned in the second static mesh is randomly scattered throughout the spline.
 
 float XScale , float YScale - Scales the road by X and Y
+
+float MaxDrawDistance 
+bool CastShadow - Cast Shadow for Rendering 
+name CollisionPreset - You can change this variable by calling it "BlockAll" or delete this variable , but fix blueprints:
+
+
+
