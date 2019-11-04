@@ -18,6 +18,9 @@ bool CastShadow - Cast Shadow for Rendering
 name CollisionPreset - You can change this variable by calling it "BlockAll" or delete this variable , but fix blueprints:
 
 Select BlockAll
+
+WARNING This variable is responsible for the collision of the road. If in function AddCapMesh put "BlockAll" and in function AddRoadsSegments put "OverlapAll" then roads will not join among themselves
+
 ![SCREENSHOT](ScreenshotSplineAddMeshCap.jpg)
 ![SCREENSHOT](ScreenshotSplineAddRoadsSeg.jpg)
 
