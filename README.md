@@ -15,9 +15,12 @@ float MaxDrawDistance - Draw distance camera
 
 bool CastShadow - Cast Shadow for Rendering 
 
+
+## FIX
+
 name CollisionPreset - You can change this variable by calling it "BlockAll" or delete this variable , but fix blueprints:
 
-Select BlockAll
+Select BlockAll (to AddStaticMesh , to AddSplineMesh
 
 WARNING This variable is responsible for the collision of the road. If in function AddCapMesh put "BlockAll" and in function AddRoadsSegments put "OverlapAll" then roads will not join among themselves
 
