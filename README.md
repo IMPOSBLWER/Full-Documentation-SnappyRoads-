@@ -11,9 +11,15 @@ Array SplineMeshes - This is a variable that contains statiс meshes of roads. W
 
 float XScale , float YScale - Scales the road by X and Y
 
-float MaxDrawDistance 
+float MaxDrawDistance - Draw distance camera
+
 bool CastShadow - Cast Shadow for Rendering 
+
 name CollisionPreset - You can change this variable by calling it "BlockAll" or delete this variable , but fix blueprints:
+
+Select BlockAll
+![SCREENSHOT](ScreenshotSplineAddMeshCap.jpg)
+![SCREENSHOT](ScreenshotSplineAddRoadsSeg.jpg)
 
 
 
